@@ -1,0 +1,8 @@
+fragment CartItem on CartItem {
+  id
+  name
+  quantity
+  lineTotal {
+    formatted
+  }
+}

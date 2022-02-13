@@ -1,0 +1,8 @@
+fragment Cart on Cart {
+  id
+  totalItems
+  totalUniqueItems
+  subTotal {
+    formatted
+  }
+}
